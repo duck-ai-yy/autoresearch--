@@ -30,6 +30,13 @@ Each entry: decision made, what was ruled out, rationale, downstream impact. Nev
 - **Rationale**: branch name says "academic-accelerator-agent" but the user did not authorize replacing the existing ML workflow. The new workflow coexists.
 - **Impact**: `litreview/AGENT.md` is the academic-accelerator entry point; `program.md` remains for ML autoresearch.
 
+### D6. Pedreschi et al. (2025) does not occupy our cell; framing paths B and C de-blocked
+- **Decision**: Pedreschi et al. is cited as terminology legitimization but is NOT the substantive competitor.
+- **Ruled out**: framing path A (synthesis-only) is de-prioritized; treating Pedreschi as a direct competitor that closes the topic.
+- **Rationale**: their scope = recommenders × consumers × societal-aggregate × preference shaping. Our scope = embedded workflow agents × domain experts × enterprise × cognitive collaboration. Three independent dimensions of separation. They also do NOT invoke niche construction theory by name — theoretical opening confirmed.
+- **Caveat**: boundary map built from search snippets, not full text (403 on all routes). High-stakes claims flagged for re-verification if full text becomes accessible.
+- **Impact**: framing decision now between paths B and C; Stage 2.b round-2 searches and remaining anchor maps will inform the final pick.
+
 ### D5. No root-level `CLAUDE.md` pointer; rely on `litreview/` directory discoverability
 - **Decision**: orientation lives at `litreview/README.md`. No root pointer file.
 - **Ruled out**: root `CLAUDE.md` (gitignored — launchers regenerate per-session, would be overwritten); modifying root `README.md` (upstream Karpathy file); top-of-`program.md` annotation (makes ML program branch-aware).

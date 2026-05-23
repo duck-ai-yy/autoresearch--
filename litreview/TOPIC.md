@@ -17,10 +17,10 @@
 ## Open Decisions
 
 ### O1. "Co-evolution" framing path
-- **(A) Synthesis** — spine = lenses 2+3+4 (saturated empirical). Safer, lower novelty.
-- **(B) Theory-driven** — spine = lens 6 (niche construction / coevolution). High novelty, but needs Pedreschi et al. (AIJ 2025) read to confirm space.
-- **(C) Hybrid** — spine = lenses 5+6 (activity theory + niche construction) over saturated empirical base. Highest novelty if executable.
-- **Blocker**: full-text read of Pedreschi et al. (2025) before B or C can be locked.
+- **(A) Synthesis** — spine = lenses 2+3+4 (saturated empirical). Safer, lower novelty. **De-prioritized** after Pedreschi boundary map showed clear theoretical whitespace.
+- **(B) Theory-driven** — spine = lens 6 (niche construction / coevolution). High novelty. **De-blocked** by Pedreschi map: their scope (recommenders × consumers × societal) does not overlap our cell.
+- **(C) Hybrid** — spine = lenses 5+6 (activity theory + niche construction) over saturated empirical base. Highest novelty if executable. **De-blocked**, contingent on lens 5 round-2 confirming activity-theory traction in enterprise.
+- **Status**: leaning B or C. Final decision after Stage 2.b (lens 5 round-2 + niche construction round-2 + remaining anchor boundary maps).
 
 ### O2. Domain anchor
 - Single domain options: Lawyers (Harvey) / Clinicians (CDS agents) / SWEs (Copilot, Cursor, Claude Code) / Financial analysts (Hebbia, BloombergGPT) / Consultants (BCG/Dell'Acqua cohort).

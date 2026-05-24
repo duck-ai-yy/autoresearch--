@@ -30,6 +30,19 @@ Each entry: decision made, what was ruled out, rationale, downstream impact. Nev
 - **Rationale**: branch name says "academic-accelerator-agent" but the user did not authorize replacing the existing ML workflow. The new workflow coexists.
 - **Impact**: `litreview/AGENT.md` is the academic-accelerator entry point; `program.md` remains for ML autoresearch.
 
+### D7. Path B (NCT spine) is the recommended framing
+- **Decision (preliminary, awaiting user lock)**: lean B over C and A.
+- **Ruled out**: Path A (synthesis-only) — wastes the umbrella that Pedreschi and the construct that Sowa & Przegalinska give us; Path C (AT + NCT hybrid) — Emerald 2025 already partially staked AT × GenAI conversational agents, AT's marginal contribution is small relative to lift cost.
+- **Rationale**: NCT × AI × work is empty across all axes; Brynjolfsson (adherence drift / model decay), Dillon (no org restructuring at 6 months / individual-only adaptation), and Dell'Acqua (centaur/cyborg in-the-moment niche construction) ALL describe NCT-shaped mechanisms without naming them. Path B's contribution is precisely to name and theorize what their evidence already shows.
+- **Impact**: Stage 3 outline will use NCT (Odling-Smee/Laland/Feldman) + Arthur (combinatorial tech evolution) as theoretical spine, with Pedreschi as umbrella citation, Sowa & Przegalinska's GAE as AI-side construct, Emerald AT paper as related work (Lens 5).
+- **Caveat**: "sustained" should be reframed process-based (bidirectional feedback regime) rather than duration-based, since empirical evidence maxes at 6–12 months.
+
+### D8. JAIR GAE (Sowa & Przegalinska 2025) is friend, not foe
+- **Decision**: cite as AI-side definitional anchor — "we study coevolution between domain experts and Sowa-Przegalinska-style proto-GAEs deployed in enterprise workflows."
+- **Ruled out**: treating as primary competitor.
+- **Rationale**: their construct is a static 7-trait taxonomy, no coevolution, no time axis, no mutual reshaping. They give us a clean construct to anchor our AI-side scope without occupying our dynamics cell.
+- **Impact**: GAE becomes the operative noun for our AI type in the paper.
+
 ### D6. Pedreschi et al. (2025) does not occupy our cell; framing paths B and C de-blocked
 - **Decision**: Pedreschi et al. is cited as terminology legitimization but is NOT the substantive competitor.
 - **Ruled out**: framing path A (synthesis-only) is de-prioritized; treating Pedreschi as a direct competitor that closes the topic.

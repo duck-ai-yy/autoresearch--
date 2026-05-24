@@ -1,42 +1,46 @@
 # Current State
 
-**Last updated**: 2026-05-18 (Session 1, late)
+**Last updated**: 2026-05-24 (Session 1, Stage 2 complete)
 **Branch**: `claude/academic-accelerator-agent-V4ySi`
 
 ## Current stage
 
-**Stage 2 — Deep Read + Framing Convergence (in progress).**
+**Stage 2 → Stage 3 transition.** Stage 2 framing convergence complete. Awaiting user decision on framing path + domain anchor before Stage 3 outline drafting.
 
 ## Last completed actions
 
-- Stage 0: topic scoping → `TOPIC.md`.
-- Stage 1: divergent collection across 6 lenses → `stage1-divergent.md`.
-- Scaffolding committed → `README.md`, `AGENT.md`, `TOPIC.md`, `STATE.md`, `decisions.md`.
-- **Stage 2.a: Pedreschi et al. (2025) boundary map** → `lenses/06-niche-construction.md`.
-  - Full-text was blocked (HTTP 403 on all known URLs); map assembled from indexed search snippets, flagged for verification.
-  - Verdict: Pedreschi's scope (recommenders × consumers × societal) does NOT overlap our topic (workflow agents × domain experts × cognitive collaboration). Their paper legitimizes the "coevolution" terminology without occupying our cell.
-  - Framing paths B (theory-driven niche construction) and C (hybrid) are now de-blocked.
+- Stage 0: topic scoping → `TOPIC.md`
+- Stage 1: divergent collection, 6 lenses → `stage1-divergent.md`
+- Scaffolding committed → `README.md`, `AGENT.md`, `TOPIC.md`, `STATE.md`, `decisions.md`
+- **Stage 2**:
+  - Pedreschi boundary map → `lenses/06-niche-construction.md` (round 1)
+  - Lens 5 round-2 search → `lenses/05-activity-theory.md`
+  - Lens 6 round-2 (NCT foundations) → appended to `lenses/06-niche-construction.md`
+  - Anchor paper boundary maps (4 sub-agents in parallel):
+    - `papers/brynjolfsson-2025-qje.md`
+    - `papers/dellacqua-2025-orgsci.md`
+    - `papers/dillon-2025-arxiv.md`
+    - `papers/jair-gae.md`
+  - Stage 2 synthesis → `stage2-framing.md` (recommended Path B)
 
 ## Next action (queued)
 
-**Stage 2.b — three parallel sub-tasks, then framing recommendation to user.**
+**Awaiting user decisions on three locks before Stage 3:**
 
-1. **Round-2 search on lens 5** (activity theory × enterprise AI agents). Stage 1 found this near-empty; confirm whether truly a gap or whether queries were just too narrow.
-2. **Round-2 search on lens 6 foundations** (niche construction theory × technology — Odling-Smee, Brian Arthur, Ackermann). Build theoretical backbone for potential path B.
-3. **Boundary maps for the remaining 3 anchor papers** — Brynjolfsson (QJE), Dell'Acqua (Org Sci), Dillon (arxiv). Spawn one sub-agent per paper using the same boundary-map template as `lenses/06-niche-construction.md`.
+1. **Framing path** — recommendation is **Path B** (NCT spine). Confirm or override.
+2. **Domain anchor** — recommendation is **consulting** (Dell'Acqua anchor); supporting cross-population evidence from Brynjolfsson + Dillon. Alternative: comparative across 2–3 domains.
+3. **"Sustained" interpretation** — recommended framing: process-based (bidirectional feedback regime), not duration-based. Title may need sharpening — the evidence base maxes out at 6 months (Dillon) / ~12 months staggered (Brynjolfsson).
 
-4. **NEW candidate flagged during 2.a**: "From Expert Systems to Generative Artificial Experts" (JAIR) — directly adjacent to our cell, may be the closer competitor than Pedreschi. Add to anchor papers and produce boundary map.
-
-After 2.b: present user with evidence-backed recommendation between framing paths B and C (A is now de-prioritized).
+Once these are locked, Stage 3 produces `outline.md` (section-by-section structure with citation slots) and a `gaps.md` listing targeted reads still needed.
 
 ## Blocked on user
 
-- **O2 (domain anchor)** — still open. Becomes blocking before domain-specific search round.
-- **O1 (framing path)** — converging toward B or C; final decision waits on Stage 2.b results.
+- All three decisions above.
 
 ## Notes for next session
 
-- Pedreschi boundary map is based on snippets, not full text. If full text becomes accessible, re-verify section 4 (theoretical framework) and section 8 (coverage table) — these are the highest-stakes claims.
-- New anchor paper to read: JAIR "Generative Artificial Experts" — likely closer to our topic than Pedreschi.
-- `lenses/` subdirectory exists now; per-lens boundary maps go there with naming `NN-<lens-slug>.md`.
-- Stage 2.b can be parallelized — spawn multiple sub-agents in a single message.
+- All anchor papers had restricted full-text access (HTTP 403 on every route tried). Boundary maps were assembled from indexed search snippets — high confidence on scope/methodology/headline claims, lower confidence on exact section structure and limitations text. Each boundary map file has a flagged provenance note for human verification.
+- The closest direct competitor (Sowa & Przegalinska JAIR 2025 GAE paper) is friend, not foe — gives us an AI-side definitional anchor without occupying our coevolution dynamics cell.
+- Activity theory has been partially staked by Emerald 2025 for conversational AI × workplace learning — kept as related work in Lens 5, not co-spine.
+- Brynjolfsson, Dillon, Dell'Acqua all describe niche-construction mechanisms without naming them. Path B's contribution is precisely to name and theorize what their evidence already shows.
+- Author list correction noted: Dillon paper is Dillon, Jaffe, Immorlica, Stanton (not Dillon, Cambon, Peng as the Stage 1 search initially suggested).
